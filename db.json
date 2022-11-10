@@ -1,0 +1,47 @@
+{
+  "logs": [
+    {
+      "message": "Workstation 235 not working",
+      "attention": true,
+      "date": "11-02-2022",
+      "tech": "Joey Badass",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "message": "Workstation 035 not posting",
+      "attention": true,
+      "date": "11-02-2022",
+      "tech": "Joel Smith"
+    },
+    {
+      "id": 3,
+      "message": "Changed memory on workstation 015",
+      "attention": false,
+      "date": "03-02-2021",
+      "tech": "Daddy Wizzy"
+    }
+  ],
+  "techs": [
+    {
+      "firstName": "Nicco",
+      "lastName": "Akande",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 3,
+      "firstName": "Daddy",
+      "lastName": "Wizzy"
+    },
+    {
+      "firstName": "Joel",
+      "lastName": "Akande",
+      "id": 4
+    }
+  ]
+}
