@@ -1,4 +1,4 @@
-import { GET_LOGS, LOGS_ERROR, SET_LOADING } from '../actions/types';
+import { ADD_LOG, GET_LOGS, LOGS_ERROR, SET_LOADING } from '../actions/types';
 
 const initialState = {
   logs: null,
@@ -14,6 +14,11 @@ const logReducer = (state = initialState, action) => {
         ...state,
         logs: action.payload,
         loading: false,
+      };
+    case ADD_LOG:
+      return {
+        ...state,
+        logs: [...state, action.payload],
       };
     case LOGS_ERROR:
       console.error(action.payload);
