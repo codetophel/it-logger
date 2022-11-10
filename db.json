@@ -1,37 +1,39 @@
 {
   "logs": [
     {
-      "message": "Workstation 235 not working",
+      "message": "Go to see baby girl at garage workstation ",
       "attention": true,
-      "date": "11-02-2022",
       "tech": "Joey Badass",
+      "date": "2022-11-10T16:42:26.014Z",
       "id": 1
     },
     {
-      "id": 2,
-      "message": "Workstation 035 not posting",
-      "attention": true,
-      "date": "11-02-2022",
-      "tech": "Joel Smith"
-    },
-    {
-      "id": 3,
-      "message": "Changed memory on workstation 015",
+      "message": "making dinner  at kitchen workstation 098",
       "attention": false,
-      "date": "03-02-2021",
-      "tech": "Daddy Wizzy"
+      "tech": "Joel Smith",
+      "date": "2022-11-10T16:42:52.778Z",
+      "id": 2
     },
     {
+      "message": "let's go add delete and edit function to the it-logger app using redux",
+      "attention": true,
+      "tech": "Joel Smith",
+      "date": "2022-11-10T16:46:11.206Z",
+      "id": 3
+    },
+    {
+      "message": "Go to see baby girl at garage workstation ",
+      "attention": true,
+      "tech": "Daddy Wizzy",
+      "date": "2022-11-10T16:47:19.512Z",
       "id": 4
     },
     {
+      "message": "making dinner  at kitchen workstation 098",
+      "attention": true,
+      "tech": "Joey Badass",
+      "date": "2022-11-10T16:49:58.864Z",
       "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "id": 7
     }
   ],
   "techs": [

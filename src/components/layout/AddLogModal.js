@@ -104,4 +104,4 @@ AddLogModal.propTypes = {
   addLog: PropTypes.func.isRequired,
 };
 
-export default connect(null, addLog)(AddLogModal);
+export default connect(null, { addLog })(AddLogModal);

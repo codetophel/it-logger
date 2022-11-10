@@ -18,7 +18,8 @@ const logReducer = (state = initialState, action) => {
     case ADD_LOG:
       return {
         ...state,
-        logs: [...state, action.payload],
+        logs: [...state.logs, action.payload],
+        loading: false,
       };
     case LOGS_ERROR:
       console.error(action.payload);
