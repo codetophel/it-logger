@@ -2,17 +2,17 @@
   "logs": [
     {
       "id": 1,
-      "message": "Her food was very dope, I enjoyed it",
-      "attention": false,
-      "tech": "Daddy Wizzy",
-      "date": "2022-11-11T10:05:52.030Z"
+      "message": "Her food was very dope, I enjoyed it very much",
+      "attention": true,
+      "tech": "Jesus Christ",
+      "date": "2022-11-11T12:32:54.105Z"
     },
     {
       "id": 3,
-      "message": "got another charger around 12noon",
-      "attention": true,
-      "tech": "Joel Smith",
-      "date": "2022-11-11T10:17:42.456Z"
+      "message": "Getting to work asap",
+      "attention": false,
+      "tech": "Agba Baller",
+      "date": "2022-11-11T12:33:28.798Z"
     }
   ],
   "techs": [
@@ -27,19 +27,14 @@
       "lastName": "Smith"
     },
     {
-      "id": 3,
-      "firstName": "Daddy",
-      "lastName": "Wizzy"
-    },
-    {
-      "firstName": "Joel",
-      "lastName": "Akande",
-      "id": 4
-    },
-    {
       "firstName": "Jesus",
       "lastName": "Christ",
       "id": 5
+    },
+    {
+      "firstName": "Agba",
+      "lastName": "Baller",
+      "id": 6
     }
   ]
 }
