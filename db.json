@@ -8,32 +8,11 @@
       "id": 1
     },
     {
-      "message": "making dinner  at kitchen workstation 098",
-      "attention": false,
-      "tech": "Joel Smith",
-      "date": "2022-11-10T16:42:52.778Z",
-      "id": 2
-    },
-    {
-      "message": "let's go add delete and edit function to the it-logger app using redux",
-      "attention": true,
-      "tech": "Joel Smith",
-      "date": "2022-11-10T16:46:11.206Z",
-      "id": 3
-    },
-    {
-      "message": "Go to see baby girl at garage workstation ",
-      "attention": true,
-      "tech": "Daddy Wizzy",
-      "date": "2022-11-10T16:47:19.512Z",
-      "id": 4
-    },
-    {
-      "message": "making dinner  at kitchen workstation 098",
+      "message": "about to get another charger at home by 11am",
       "attention": true,
       "tech": "Joey Badass",
-      "date": "2022-11-10T16:49:58.864Z",
-      "id": 5
+      "date": "2022-11-11T08:49:15.458Z",
+      "id": 3
     }
   ],
   "techs": [
