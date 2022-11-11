@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import M from 'materialize-css/dist/js/materialize.min.js';
 import { connect } from 'react-redux';
-import { updateLog } from '../../actions/logActions';
+import { clearCurrent, updateLog } from '../../actions/logActions';
 import PropTypes from 'prop-types';
 
-const EditLogModal = ({ updateLog, current }) => {
+const EditLogModal = ({ updateLog, current, clearCurrent }) => {
   const [message, setMessage] = useState('');
   const [attention, setAttention] = useState(false);
   const [tech, setTech] = useState('');
@@ -33,9 +33,7 @@ const EditLogModal = ({ updateLog, current }) => {
       M.toast({ html: `Log Updated by ${tech}` });
 
       //clear fields
-      setMessage('');
-      setAttention(false);
-      setTech('');
+      clearCurrent();
     }
   };
 
@@ -106,10 +104,13 @@ const modalStyle = {
 EditLogModal.propTypes = {
   curent: PropTypes.object,
   updateLog: PropTypes.func.isRequired,
+  clearCurrent: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = (state) => ({
   current: state.log.current,
 });
 
-export default connect(mapStateToProps, { updateLog })(EditLogModal);
+export default connect(mapStateToProps, { updateLog, clearCurrent })(
+  EditLogModal
+);
