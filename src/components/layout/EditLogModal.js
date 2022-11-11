@@ -3,6 +3,7 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 import { connect } from 'react-redux';
 import { clearCurrent, updateLog } from '../../actions/logActions';
 import PropTypes from 'prop-types';
+import TechSelectOptions from '../techs/TechSelectOptions';
 
 const EditLogModal = ({ updateLog, current, clearCurrent }) => {
   const [message, setMessage] = useState('');
@@ -33,7 +34,9 @@ const EditLogModal = ({ updateLog, current, clearCurrent }) => {
       M.toast({ html: `Log Updated by ${tech}` });
 
       //clear fields
-      clearCurrent();
+      setMessage('');
+      setAttention(false);
+      setTech('');
     }
   };
 
@@ -62,9 +65,7 @@ const EditLogModal = ({ updateLog, current, clearCurrent }) => {
               <option value='' disabled>
                 Select technician
               </option>
-              <option value='Joey Badass'>Joey Badass</option>
-              <option value='Joel Smith'>Joel Smith</option>
-              <option value='Daddy Wizzy'>Daddy Wizzy</option>
+              <TechSelectOptions />
             </select>
           </div>
         </div>
