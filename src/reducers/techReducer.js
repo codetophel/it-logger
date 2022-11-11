@@ -37,6 +37,7 @@ const techReducer = (state = initialState, action) => {
       return {
         ...state,
         error: action.payload,
+        loading: false,
       };
     case SET_LOADING:
       return {
